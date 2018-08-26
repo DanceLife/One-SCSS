@@ -16,7 +16,7 @@ Open a command prompt and change directory into the folder of your preference. A
 `npm install`
  
 ## Run it locally
-### The follwoing line will build the application, start a new server, and open the app in your default browers 
+### With the follwoing line you will build the application, start a new server, and open the app in your default brower 
 
 `ng serve -o`
 
