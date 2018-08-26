@@ -14,7 +14,7 @@ Open a command prompt and change directory into the folder of your preference. A
 ### Depending of your connection speed, this may take a few minutes to complete
 
 `npm install`
-
+ 
 ## Run it locally
 
 `ng serve -o`
