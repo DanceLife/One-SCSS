@@ -12,7 +12,7 @@ Then enter the following lines:
 <br />
 `ng serve -o`
 
-# BasicNavigation
+# One-SCSS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
 
