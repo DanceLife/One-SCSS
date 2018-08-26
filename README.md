@@ -2,7 +2,7 @@
 
 ## Cloning the repository
 
-Open a command prompt and change directory into the folder of your preference. Assuming you have Git installed, entering the following line will clone this repository and create a new folder (one-css) with the content of it.
+Open a command prompt and change directory into the folder of your preference. Assuming you have Git installed, entering the following line will clone the repository and create a new folder (one-css) with the content of it.
 
 `git clone https://github.com/DanceLife/One-SCSS.git one-css`
 
@@ -25,4 +25,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Further help
 
+To get more help on Git installation check out [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
