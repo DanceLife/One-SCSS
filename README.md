@@ -22,7 +22,7 @@ Open a command prompt and change directory into the folder of your preference. A
 
 # One-SCSS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.; and [Bootstrap Bootstrap] (https://getbootstrap.com/) version v4.1.3.
 
 ## Further help
 
