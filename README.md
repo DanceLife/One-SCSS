@@ -8,7 +8,9 @@ Then enter the following lines:
 
 `cd one-css`
 <br />
+<br />
 `npm install bootstrap`
+<br />
 <br />
 `ng serve -o`
 
