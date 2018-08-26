@@ -1,11 +1,11 @@
-@import './variables';
-@import './mixins';
-
-
 // Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
+
+// Custom variables and mixins
+@import './variables';
+@import './mixins';
 
 // Optional
 @import "node_modules/bootstrap/scss/reboot";
