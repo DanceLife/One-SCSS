@@ -1,4 +1,4 @@
-#Run it locally
+# Run it locally
 
 Open a command prompt, go to the drive and folder of your preference and paste the following line: 
 
