@@ -11,11 +11,12 @@ Open a command prompt and change directory into the folder of your preference. A
 `cd one-css`
 
 ## Installing dependencies
-### Depending of your connection speed, this may take a few minutes to complete
+### Depending of your connection speed, the following may take a few minutes to complete
 
 `npm install`
  
 ## Run it locally
+### The follwoing line will build the application, start a new server, and open the app in your default browers 
 
 `ng serve -o`
 
