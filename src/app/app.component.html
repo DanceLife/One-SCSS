@@ -23,8 +23,10 @@
   </div>
   <div class="row">
       <div class="col-sm">
-        <p>As a quick starter you can go into src/scss/_variables.scss on the project and quickly set your color variables as desired. Then take a look at the app.component.scss where you will see the directive for importing the custom scss file, as well as a css rule utilizing a variable defined all the way back into the _variable.scss file, which modifies the original bootstrap color.</p>
+        <p>As a quick starter you can go into src/scss/_variables.scss and quickly set your color variables as desired.</p> 
+        <p>On the app.component.scss you can see the directive for importing the custom scss file, as well as a rule using a variable defined all the way back into the _variable.scss file, modifying the original bootstrap color.</p>
         <p>You can also add more variables by copy them from the node_modules\bootstrap\scss\_variables.scss file.</p>
+       <p>When creating a new .scss file in your project then add the following directive at the top of the file: <strong>@import '~src/scss/styles.scss';</strong></p>
       </div>
   </div>
   <div class="row">
@@ -34,7 +36,8 @@
   </div>
   <div class="row">
       <div class="col-sm">
-          <div id="sample-color">Sample Custom Colors</div>
+          <div class="p-3 mb-2 bg-success text-white">Bootstrap Green Color</div>
+          <div id="example-custom-color" class="p-3 mb-2 text-white">Custom Green Color</div>
         </div>
   </div>
   
