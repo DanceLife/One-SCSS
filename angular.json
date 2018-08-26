@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "basicNavigation": {
+    "One": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/basicNavigation",
+            "outputPath": "dist/One",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -55,18 +55,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "basicNavigation:build"
+            "browserTarget": "One:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "basicNavigation:build:production"
+              "browserTarget": "One:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "basicNavigation:build"
+            "browserTarget": "One:build"
           }
         },
         "test": {
@@ -100,7 +100,7 @@
         }
       }
     },
-    "basicNavigation-e2e": {
+    "One-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -108,11 +108,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "basicNavigation:serve"
+            "devServerTarget": "One:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "basicNavigation:serve:production"
+              "devServerTarget": "One:serve:production"
             }
           }
         },
@@ -128,5 +128,5 @@
       }
     }
   },
-  "defaultProject": "basicNavigation"
+  "defaultProject": "One"
 }
