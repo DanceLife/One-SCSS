@@ -7,6 +7,7 @@ Open a command prompt, go to the drive and folder of your preference and paste t
 Then enter the following lines:
 
 `cd one-css`
+<br />
 `npm install`
 `npm install bootstrap`
 `ng serve -o`
