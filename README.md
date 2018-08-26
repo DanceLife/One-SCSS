@@ -1,3 +1,16 @@
+#Run it locally
+
+Open a command prompt, go to the drive and folder of your preference and paste the following line: 
+
+`git clone https://github.com/DanceLife/One-SCSS.git one-css`
+
+Then enter the following lines:
+
+`cd one-css`
+`npm install`
+`npm install bootstrap`
+`ng serve -o`
+
 # BasicNavigation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
